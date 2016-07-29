@@ -1,0 +1,73 @@
+html {
+  font-family: 'Open+Sans', sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  display:block;
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  font-size:40px;
+  font-weight:bolder;
+  text-align: center;
+  margin:auto;
+  width:100%;
+}
+/*@media (min-width:500px){
+  #welcome,#meet,#train,#CH,#journey,#history {
+    color:blue;
+  }
+}
+  @media (min-width:600px){
+    #welcome,#meet,#train,#CH,#journey,#history {
+      color:red;
+    }
+}*/
+#meet {
+  font-size:30px;
+  font-weight: lighter;
+}
+#welcome {
+  font-size:30px;
+  font-weight: lighter;
+}
+#train {
+  font-size:30px;
+  font-weight: lighter;
+}
+#CH {
+  font-size:30px;
+  font-weight: lighter;
+}
+#journey {
+  font-size:30px;
+  font-weight: lighter;
+}
+#history{
+  font-size:30px;
+  font-weight: lighter;
+}
+.container{
+  position:fixed;
+  text-align: center;
+  margin-top: 120px;
+}
+.col-sm-4{
+  display:inline-block;
+  background-color: white;
+  height:150px;
+  width:150px;
+  margin:10px;
+}
+
+body{
+  background: linear-gradient(
+                       rgba(00,00,00, .8),
+                       rgba(00,00,00, .8)),
+                      url("http://andesignco.com/wp-content/uploads/2014/05/bauhaus-books-2.jpg");
+  background-size: cover;
+  margin:0;
+  height:2000px;
+}

@@ -1,0 +1,71 @@
+html {
+  font-family: 'Open+Sans', sans-serif;
+}
+
+ul{
+  list-style-type: none;
+  display:block;
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  font-size:40px;
+  font-weight:bolder;
+  text-align: center;
+  margin:auto;
+  width:100%;
+}
+#meet {
+  font-size:30px;
+  font-weight: lighter;
+}
+#welcome {
+  font-size:30px;
+  font-weight: lighter;
+}
+#train {
+  font-size:30px;
+  font-weight: lighter;
+}
+#journey {
+  font-size:30px;
+  font-weight: lighter;
+}
+#CH {
+  font-size:30px;
+  font-weight: lighter;
+}
+#history{
+  font-size:30px;
+  font-weight: lighter;
+}
+body{
+  background: linear-gradient(
+                       rgba(00,00,00, .7),
+                       rgba(00,00,00, .7)),
+                      url("http://markwegner.com/photography/archive/bart/p-H-oakland-citycenter-perspective.jpg");
+  background-size: cover;
+  margin:0;
+}
+.moving:active{
+  -webkit-animation: infinite fadeIn 1s;
+  animation: fadeIn 1s;
+}
+.everything {
+  vertical-align:middle;
+  width:100%;
+  font-size: 120px;
+  color:white;
+  font-family: 'Open+Sans';
+  text-align: center;
+  margin-bottom: -100px;
+}
+
+.helvetica {
+  color:white;
+  font-size: 120px;
+  font-weight: 900;
+  width:100%;
+  text-align: center;
+  vertical-align:middle;
+}
